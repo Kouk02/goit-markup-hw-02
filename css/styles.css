@@ -2,6 +2,11 @@ body {
 font-family: 'roboto', 'raleway'
 }
 
+.body-section {
+background-color: #FFFFFF;
+color: #434455;
+}
+
 button {
     cursor: pointer;
 }
