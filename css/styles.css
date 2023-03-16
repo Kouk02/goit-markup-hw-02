@@ -67,8 +67,7 @@ li {
     background-color: #FFFFFF;
 }
 
-.button-list:focus,
-.button-list:hover {
+ .button-list{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -77,9 +76,9 @@ li {
         color: #4D5AE5;
         background: #F4F4FD;
 }
-
-.button-list {
-    background-color: #4D5AE5;
+.button-list:focus,
+.button-list:hover {
+    background-color:#4D5AE5 ;
     color: #FFFFFF;
 }
 
@@ -141,9 +140,4 @@ font-family: 'Roboto';
 
 .section-title {
     background-color: #2E2F42;
-}
-
-.navigation-list .hover, 
-.navigation-list .focus {
-
 }
