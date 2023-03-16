@@ -28,23 +28,26 @@ list-style: none
 }
 
 
-.nav-link:hover {
+.nav-link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: #434455;
 }
 
+.nav-link:hover {
+color: #404bbf
+}
 
 .nav-link:focus {
 color: #404bbf
 }
 
-.address-list {
-font-style: normal
+.address-link {
+    font-style: normal
 }
 
 .header-link {
@@ -144,7 +147,7 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
         color: #2E2F42;
         text-align: center;
         text-transform: capitalize;
