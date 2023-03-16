@@ -1,5 +1,5 @@
 body {
-font-family: 'roboto', 'raleway','sans-serif';
+font-family: "Roboto", sans-serif;
 background-color: #FFFFFF;
 color: #434455;
 }
@@ -23,17 +23,17 @@ li {
 list-style: none
 }
 
-.menu-link {
+.nav-link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42
+        color: #2E2F42;
 }
 
-.menu-link:hover {
+.nav-link:hover {
 color: #404bbf
 }
 
@@ -41,16 +41,14 @@ color: #404bbf
 font-style: normal
 }
 
-.header-logo {
-    
-    font-family: "Raleway", sans-serif
-        font-style: normal;
+.header-link {
+    font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17
+        line-height: 1.17;
         color: #4D5AE5;
-        letter-spacing: 0.03em
-        text-transform: uppercase
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
 
 }
@@ -63,11 +61,11 @@ font-style: normal
             color: #F4F4FD;
 }
 
-.header-title {
+.header-span {
     color: #2E2F42;
 }
 
-.info {
+.contact-link {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -77,7 +75,8 @@ font-style: normal
         color: #434455;
 }
 
-.info:focus {
+.contact-link:focus
+.contact-link:hover {
     color: #404bbf
 }
 
@@ -89,7 +88,7 @@ font-style: normal
     line-height: 1.5;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -120,9 +119,11 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .list-text {
@@ -154,10 +155,10 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11
+        line-height: 1.11;
         color: #2E2F42;
-        text-align: center
-        text-transform: capitalize
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .title {
@@ -165,11 +166,10 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
-        
+        color: #FFFFFF;     
 }
 
 .section-title {
