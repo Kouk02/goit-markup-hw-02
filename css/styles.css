@@ -1,5 +1,13 @@
 body {
-    font-family: "roboto" "raleway"
+font-family: 'roboto', 'raleway'
+}
+
+li {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .header-button {
@@ -34,7 +42,7 @@ body {
 }
 
 .info {
-    font-family: 'Roboto';
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -44,23 +52,38 @@ body {
 }
 
 .button {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #FFFFFF;
-        background-color: #4D5AE5;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 
-.button-list {
-    font-family: 'Roboto';
+.button:hover,
+.button:focus {
+    color: #404BBF;
+    background-color: #FFFFFF;
+}
+
+.button-list:focus,
+.button-list:hover {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         color: #4D5AE5;
+        background: #F4F4FD;
 }
+
+.button-list {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+
 
 .list-item {
 font-family: 'Roboto';
@@ -118,4 +141,9 @@ font-family: 'Roboto';
 
 .section-title {
     background-color: #2E2F42;
+}
+
+.navigation-list .hover, 
+.navigation-list .focus {
+
 }
