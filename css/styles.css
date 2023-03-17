@@ -1,7 +1,7 @@
 body {
 font-family: "Roboto", sans-serif;
-background-color: #FFFFFF;
-color: #434455;
+background-color: var(--color-white);
+color: var(--color-slate);
 }
 
 button {
@@ -47,15 +47,15 @@ list-style: none
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--color-navy-blue);
 }
 
 .nav-link:hover {
-color: #404bbf
+color: var(--color-ocean);
 }
 
 .nav-link:focus {
-color: #404bbf
+color: var(--color-ocean);
 }
 
 .address-link {
@@ -67,14 +67,14 @@ color: #404bbf
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        color: #4D5AE5;
+        color: var(--color-iris);
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
 }
 
 .logo-span {
-    color: #2E2F42;
+    color: var(--color-navy-blue);
 }
 
 .footer-title {
@@ -83,7 +83,7 @@ color: #404bbf
             font-weight: 800;
             font-size: 18px;
             line-height: 1.16;
-            color: #F4F4FD;
+            color: var(--color-cloud);
 }
 
 
@@ -94,12 +94,14 @@ color: #404bbf
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--SLATE)
+        color: var(--color-slate);
 }
 
-.contact-link::before {
-    color: var(--Navyblue)
+.contact-link:focus,
+.contact-link:hover {
+    color: var(--color-ocean);
 }
+
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -107,30 +109,31 @@ color: #404bbf
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--color-iris);
+    color: var(--color-white);
     letter-spacing: 0.04em;
 }
 
 .button:hover,
 .button:focus {
-    color: #404BBF;
-    background-color: #404BBF;
+    color: var(--color-ocean);
+    background-color: var(--color-ocean);
 }
 
  .button-list{
-        font-family: 'Roboto';
+        font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        color: #4D5AE5;
-        background: #F4F4FD;
+        color: var(--color-iris);
+        background-color: var(--color-cloud);
+        letter-spacing: 0.04em
 }
 .button-list:focus,
 .button-list:hover {
-    background-color:#4D5AE5 ;
-    color: #FFFFFF;
+    background-color:var(--color-ocean) ;
+    color: var(--color-white);
 }
 
 
@@ -142,7 +145,7 @@ font-family: 'Roboto';
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-grey);
     text-align: center;
     text-transform: capitalize;
 }
@@ -154,7 +157,7 @@ font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
 }
 
 .title-list {
@@ -163,7 +166,7 @@ font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
-        color: #2E2F42;
+        color: var(--color-navy-blue);
         text-align: center;
         text-transform: capitalize;
         letter-spacing: 0.02em
@@ -177,27 +180,27 @@ font-family: 'Roboto';
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;     
+        color: var(--color-white);     
 }
 
 .section-title {
-    background-color: #2E2F42;
+    background-color: var(--color-grey);
 }
 
 .section-list {
-background-color: #F4F4FD
+background-color: var(--color-cloud);
 }
 
 .list-image {
-    background-color: #FFFFFF
+    background-color: var(--color-white);
 }
 
 .footer-section {
-    background: #2E2F42;
+    background-color: var(--color-navy-blue);
 }
 
 .footer-span {
-    color: #f4f4fd;
+    color: var(--color-cloud);
 }
 
 .footer-text {
@@ -207,6 +210,6 @@ background-color: #F4F4FD
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--color-cloud);
 }
 
