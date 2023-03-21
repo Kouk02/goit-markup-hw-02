@@ -41,8 +41,6 @@ list-style: none
 
 
 .nav-link {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -78,8 +76,6 @@ color: var(--color-ocean);
 }
 
 .footer-title {
-        font-family: 'Raleway';
-            font-style: normal;
             font-weight: 800;
             font-size: 18px;
             line-height: 1.16;
@@ -88,8 +84,6 @@ color: var(--color-ocean);
 
 
 .contact-link {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -104,8 +98,6 @@ color: var(--color-ocean);
 
 
 .button {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -116,13 +108,11 @@ color: var(--color-ocean);
 
 .button:hover,
 .button:focus {
-    color: var(--color-ocean);
+    color: var(--color-white);
     background-color: var(--color-ocean);
 }
 
  .button-list{
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -139,8 +129,6 @@ color: var(--color-ocean);
 
 
 .list-item {
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -151,9 +139,6 @@ font-family: 'Roboto';
 }
 
 .list-text {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -161,8 +146,6 @@ font-family: 'Roboto';
 }
 
 .title-list {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -173,8 +156,6 @@ font-family: 'Roboto';
 }
 
 .title {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -204,9 +185,6 @@ background-color: var(--color-cloud);
 }
 
 .footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
